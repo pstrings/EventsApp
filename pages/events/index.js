@@ -1,11 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import loadConfig from "next/dist/server/config";
 
 // Any logs inside the below function will only be visible at server side and not in client browswer.
 export const getStaticProps = async () => {
 	const { events_categories } = await import("../../data/events.json");
-	console.log(events_categories);
 
 	return {
 		props: {
