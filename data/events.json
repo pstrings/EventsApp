@@ -23,23 +23,15 @@
 		{
 			"id": "london-comic-con-winter",
 			"title": "London Comic Con Winter",
-			"city": "London",
+			"city": "london",
 			"description": "London Comic Con Winter is coming to Olympia over the weekend of 18-19 November 2023. We will be bringing you the Stars of Film & TV for you to meet, get their autographs & have your photo taken with them! All this will be taking place at the historic Olympia London.",
 			"image": "https://londoncomicconwinter.com/wp-content/uploads/2022/04/LFCC-July-19-2371-Cosplay-560x420.jpg",
 			"emails_registered": []
 		},
 		{
-			"id": "hyde-park-winter-wonderland",
-			"title": "Hyde Park Winter Wonderland",
-			"city": "London",
-			"description": "Hyde Park Winter Wonderland, commonly referred to as Winter Wonderland, is a large annual Christmas event held in Hyde Park, London, from mid-November to early January.",
-			"image": "https://hydeparkwinterwonderland.com/static/252d7fe6693a6a8b1887bd2049204103/039f7/2021-503x503-3.webp",
-			"emails_registered": []
-		},
-		{
 			"id": "new-years-eve-in-london-2023",
 			"title": "New Years Eve in London 2023",
-			"city": "London",
+			"city": "london",
 			"description": "Celebrate New Years Eve in the heart of London!",
 			"image": "https://images.unsplash.com/photo-1521478413868-1bbd982fa4a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
 			"emails_registered": []

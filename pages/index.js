@@ -4,8 +4,6 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-const inter = Inter({ subsets: ["latin"] });
-
 // Should be used for data that is fetched at request time only.
 export const getServerSideProps = async () => {
 	const { events_categories } = await import("../data/events.json");

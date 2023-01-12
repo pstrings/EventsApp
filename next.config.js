@@ -7,6 +7,22 @@ const nextConfig = {
 				hostname: "images.pexels.com",
 				port: "",
 				pathname: "/photos/**"
+			},
+			{
+				protocol: "https",
+				hostname: "londoncomicconwinter.com"
+			},
+			{
+				protocol: "https",
+				hostname: "images.unsplash.com"
+			},
+			{
+				protocol: "https",
+				hostname: "hydeparkwinterwonderland.com"
+			},
+			{
+				protocol: "https",
+				hostname: "wembleypark.com"
 			}
 		]
 	},
