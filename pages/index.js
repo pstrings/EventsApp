@@ -11,12 +11,6 @@ export const getServerSideProps = async () => {
 	};
 };
 
-const Home = ({ data }) => {
-	return (
-		<>
-			<HomePage data={data} />
-		</>
-	);
-};
+const Home = ({ data }) => <HomePage data={data} />;
 
 export default Home;
