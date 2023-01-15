@@ -39,6 +39,8 @@ const Event = ({ data }) => {
 				<h1>{data.title}</h1>
 				<Image src={data.image} alt={data.id} width={600} height={200} />
 				<p>{data.description}</p>
+				<input type="email" placeholder="Enter Email ID" />
+				<button>Submit</button>
 			</div>
 		</>
 	);
