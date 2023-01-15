@@ -35,9 +35,9 @@ export const getStaticProps = async (context) => {
 const Event = ({ data }) => {
 	return (
 		<>
-			<div>
+			<div className="event">
 				<h1>{data.title}</h1>
-				<Image src={data.image} alt={data.id} width={300} height={200} />
+				<Image src={data.image} alt={data.id} width={600} height={200} />
 				<p>{data.description}</p>
 			</div>
 		</>

@@ -15,11 +15,10 @@ export const getStaticProps = async () => {
 const EventsPage = ({ data }) => {
 	return (
 		<>
-			<h1>Events Page</h1>
-			<div>
+			<div className="events_page">
 				{data.map((ev) => (
-					<Link key={ev.id} href={`/events/${ev.id}`}>
-						<Image src={ev.image} alt={ev.title} width={300} height={200} />
+					<Link className="card" key={ev.id} href={`/events/${ev.id}`}>
+						<Image src={ev.image} alt={ev.title} width={400} height={200} />
 						<h2>{ev.title}</h2>
 					</Link>
 				))}
