@@ -27,7 +27,6 @@ export const getStaticProps = async (context) => {
 };
 
 const Events = ({ data, pageName }) => {
-	console.log(pageName);
 	return (
 		<>
 			{/* Making the first character uppercase. */}

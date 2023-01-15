@@ -1,8 +1,5 @@
 import Head from "next/head";
-import { Inter } from "@next/font/google";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
-import Image from "next/image";
+import HomePage from "../src/components/home/HomePage";
 
 // Should be used for data that is fetched at request time only.
 export const getServerSideProps = async () => {
@@ -24,23 +21,7 @@ const Home = ({ data }) => {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<header>
-				<nav>
-					<Image src="" alt="" />
-					<Link href="/">Home</Link>
-					<Link href="/events">Events</Link>
-					<Link href="/about-us">About Us</Link>
-				</nav>
-			</header>
-			<main className={styles.main}>
-				{data.map((ev) => (
-					<Link key={ev.id} href={`/events/${ev.id}`}>
-						<Image src={ev.image} alt={ev.title} width={300} height={200} />
-						<h2>{ev.title}</h2>
-						<p>{ev.description}</p>
-					</Link>
-				))}
-			</main>
+			<HomePage data={data} />
 		</>
 	);
 };
