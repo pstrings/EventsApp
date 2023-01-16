@@ -33,14 +33,20 @@ export const getStaticProps = async (context) => {
 };
 
 const Event = ({ data }) => {
+	const submitFunction = () => {};
 	return (
 		<>
 			<div className="event">
 				<h1>{data.title}</h1>
 				<Image src={data.image} alt={data.id} width={600} height={200} />
 				<p>{data.description}</p>
-				<input type="email" placeholder="Enter Email ID" />
-				<button>Submit</button>
+				<br />
+				<br />
+				<form onSubmit={submitFunction} className="email_registration">
+					<label htmlFor="email">Get registered for the event:</label>
+					<input type="email" id="email" placeholder="Enter Email ID" />
+					<button type="button">Submit</button>
+				</form>
 			</div>
 		</>
 	);
